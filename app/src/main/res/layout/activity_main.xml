@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.somil.myapplication.MainActivity"
+
+    android:background="#37474F">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/logo"
+
+        android:elevation="10dp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_text_bg"
+        android:drawablePadding="10dp"
+
+        android:elevation="10dp"
+        android:hint="Enter Name"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+
+        android:padding="15dp"
+        android:text="Next"
+        android:textSize="20sp"
+        />
+
+ <!--   <TextView
+        android:id="@+id/is"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/next"
+        android:textSize="20dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:text="Welcome "
+        />-->
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/Sub1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name1"
+        android:layout_marginTop="20dp"
+        android:hint="Subject 1"
+        android:background="@drawable/bg_sub"
+        android:elevation="5dp"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/Sub2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Sub1"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/bg_sub"
+        android:elevation="5dp"
+
+        android:hint="Subject 2"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/Sub3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Sub2"
+
+        android:background="@drawable/bg_sub"
+        android:elevation="5dp"
+        android:layout_marginTop="20dp"
+        android:hint="Subject 3"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/Sub4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Sub3"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/bg_sub"
+        android:elevation="5dp"
+        android:hint="Subject 4"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/Sub5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Sub4"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/bg_sub"
+        android:elevation="5dp"
+        android:hint="Subject 5"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/Sub6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Sub5"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/bg_sub"
+        android:elevation="5dp"
+        android:hint="Subject 6"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Sub6"
+        android:layout_centerHorizontal="true"
+        android:text="Submit" />
+</RelativeLayout>

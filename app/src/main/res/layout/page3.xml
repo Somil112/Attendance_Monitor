@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/attendacesub1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Your attendance for "
+        android:layout_margin="3dp"
+        android:elevation="4dp"
+        android:background="@drawable/bg_sub"
+
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/attendacesub2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/attendacesub1"
+        android:padding="10dp"
+        android:layout_margin="3dp"
+        android:elevation="4dp"
+        android:background="@drawable/bg_sub"
+        android:text="Your attendance for "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/attendacesub3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/attendacesub2"
+        android:padding="10dp"
+        android:layout_margin="3dp"
+        android:elevation="4dp"
+        android:background="@drawable/bg_sub"
+        android:text="Your attendance for "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/attendacesub4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/attendacesub3"
+        android:padding="10dp"
+        android:layout_margin="3dp"
+        android:elevation="4dp"
+        android:background="@drawable/bg_sub"
+        android:text="Your attendance for "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/attendacesub5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/attendacesub4"
+        android:padding="10dp"
+        android:layout_margin="3dp"
+        android:elevation="4dp"
+        android:background="@drawable/bg_sub"
+        android:text="Your attendance for "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/attendacesub6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/attendacesub5"
+        android:padding="10dp"
+        android:text="Your attendance for "
+        android:layout_margin="3dp"
+        android:elevation="4dp"
+        android:background="@drawable/bg_sub"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/totaltpercent"
+        android:layout_margin="3dp"
+        android:elevation="4dp"
+        android:background="@drawable/bg_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/attendacesub6"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:text="Total attendance is "
+        android:textSize="20dp" />
+
+</RelativeLayout>

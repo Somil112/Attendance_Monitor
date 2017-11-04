@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_sub"
+        android:layout_marginBottom="5dp"
+        android:elevation="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@drawable/bg_next"
+            android:elevation="10dp"
+
+
+            android:text="Next"
+            android:id="@+id/next2"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--Subject1-->
+
+            <RelativeLayout
+                android:id="@+id/subject1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:background="@drawable/bg_sub"
+                android:elevation="3dp"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+
+                    android:textStyle="bold"
+                    android:padding="10dp"
+
+
+                    android:textSize="30sp"
+
+                    />
+
+                <Button
+                    android:id="@+id/a1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:layout_alignParentRight="true"
+
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_bg"
+                    android:stateListAnimator="@null"
+                    android:elevation="10dp"
+                    android:text="att" />
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/a1"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:stateListAnimator="@null"
+                    android:elevation="10dp"
+
+
+
+                    android:background="@drawable/button_bg"
+
+
+                    android:text="bnk" />
+
+                <TextView
+                    android:id="@+id/counterattend1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                   android:textAlignment="center"
+                    android:paddingTop="4dp"
+                    android:layout_toStartOf="@id/a1"
+                    android:text="0"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/counterbunk1"
+                    android:layout_width="50dp"
+                    android:textAlignment="center"
+                    android:paddingTop="4dp"
+                    android:layout_height="50dp"
+                    android:text="0"
+                    android:textSize="30sp"
+
+                    android:layout_alignTop="@id/b1"
+                    android:layout_toStartOf="@id/b1" />
+
+            </RelativeLayout>
+            <!--Subject 2-->
+            <RelativeLayout
+                android:id="@+id/subject2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/bg_sub"
+                android:layout_marginBottom="5dp"
+                android:elevation="3dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    
+                   />
+
+                <Button
+                    android:id="@+id/a2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_bg"
+
+                    android:stateListAnimator="@null"
+                    android:elevation="10dp"
+                    android:text="att" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_bg"
+                    android:stateListAnimator="@null"
+                    android:elevation="10dp"
+android:layout_marginTop="10dp"
+                    android:text="bnk"
+                    android:layout_below="@id/a2"
+                    android:layout_alignStart="@id/a2" />
+                <TextView
+                    android:id="@+id/counterattend2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textAlignment="center"
+                    android:paddingTop="4dp"
+                    android:layout_toStartOf="@id/a2"
+                    android:text="0"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/counterbunk2"
+                    android:layout_width="50dp"
+                    android:textAlignment="center"
+                    android:paddingTop="4dp"
+                    android:layout_height="50dp"
+                    android:text="0"
+                    android:textSize="30sp"
+
+                    android:layout_alignTop="@id/b2"
+                    android:layout_toStartOf="@id/b2" />
+
+            </RelativeLayout>
+            <!--Subject 3-->
+            <RelativeLayout
+                android:id="@+id/subject3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/bg_sub"
+                android:layout_marginBottom="5dp"
+                android:elevation="3dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                     />
+
+                <Button
+                    android:id="@+id/a3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_bg"
+                    android:stateListAnimator="@null"
+
+                    android:elevation="10dp"
+                    android:text="att" />
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/a3"
+                    android:layout_marginRight="10dp"
+                    android:stateListAnimator="@null"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:elevation="10dp"
+
+                    android:text="bnk" />
+                <TextView
+                    android:id="@+id/counterattend3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textAlignment="center"
+                    android:paddingTop="4dp"
+                    android:layout_toStartOf="@id/a3"
+                    android:text="0"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/counterbunk3"
+                    android:layout_width="50dp"
+                    android:textAlignment="center"
+                    android:paddingTop="4dp"
+                    android:layout_height="50dp"
+                    android:text="0"
+                    android:textSize="30sp"
+
+                    android:layout_alignTop="@id/b3"
+                    android:layout_toStartOf="@id/b3" />
+            </RelativeLayout>
+            <!-- Subject 4-->
+            <RelativeLayout
+                android:id="@+id/subject4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/bg_sub"
+                android:layout_marginBottom="5dp"
+                android:elevation="3dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+
+                    android:textStyle="bold"
+                    android:padding="10dp"
+
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/a4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:stateListAnimator="@null"
+                    android:elevation="10dp"
+
+                    android:background="@drawable/button_bg"
+                    android:text="att" />
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/a4"
+                    android:stateListAnimator="@null"
+                    android:layout_marginRight="10dp"
+                    android:elevation="10dp"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginTop="10dp"
+                    android:text="bnk" />
+                <TextView
+                    android:id="@+id/counterattend4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textAlignment="center"
+                    android:paddingTop="4dp"
+                    android:layout_toStartOf="@id/a4"
+                    android:text="0"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/counterbunk4"
+                    android:layout_width="50dp"
+                    android:textAlignment="center"
+                    android:paddingTop="4dp"
+                    android:layout_height="50dp"
+                    android:text="0"
+                    android:textSize="30sp"
+
+                    android:layout_alignTop="@id/b4"
+                    android:layout_toStartOf="@id/b4" />
+            </RelativeLayout>
+            <!-- Subject 5-->
+            <RelativeLayout
+                android:id="@+id/subject5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/bg_sub"
+                android:layout_marginBottom="5dp"
+                android:elevation="3dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+
+                    android:textSize="30sp" />
+
+
+                <Button
+                    android:id="@+id/a5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_bg"
+
+                    android:stateListAnimator="@null"
+                    android:elevation="10dp"
+                    android:text="att" />
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/a5"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_bg"
+                    android:stateListAnimator="@null"
+                    android:layout_marginTop="10dp"
+                    android:text="bnk" />
+                <TextView
+                    android:id="@+id/counterattend5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textAlignment="center"
+                    android:paddingTop="4dp"
+                    android:layout_toStartOf="@id/a5"
+                    android:text="0"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/counterbunk5"
+                    android:layout_width="50dp"
+                    android:textAlignment="center"
+                    android:paddingTop="4dp"
+                    android:layout_height="50dp"
+                    android:text="0"
+                    android:textSize="30sp"
+
+                    android:layout_alignTop="@id/b5"
+                    android:layout_toStartOf="@id/b5" />
+
+            </RelativeLayout>
+            <!--Subject 6-->
+            <RelativeLayout
+                android:id="@+id/subject6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/bg_sub"
+                android:layout_marginBottom="5dp"
+                android:elevation="3dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+
+                    android:textSize="30sp"/>
+
+                <Button
+                    android:id="@+id/a6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="10dp"
+android:elevation="10dp"
+                    android:stateListAnimator="@null"
+                    android:background="@drawable/button_bg"
+                    android:text="att" />
+
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+android:elevation="10dp"
+                    android:layout_below="@id/a6"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_bg"
+                    android:stateListAnimator="@null"
+                    android:layout_marginTop="10dp"
+                    android:text="bnk" />
+                <TextView
+                    android:id="@+id/counterattend6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textAlignment="center"
+                    android:paddingTop="4dp"
+                    android:layout_toStartOf="@id/a6"
+                    android:text="0"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/counterbunk6"
+                    android:layout_width="50dp"
+                    android:textAlignment="center"
+                    android:paddingTop="4dp"
+                    android:layout_height="50dp"
+                    android:text="0"
+                    android:textSize="30sp"
+
+                    android:layout_alignTop="@id/b6"
+                    android:layout_toStartOf="@id/b6" />
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <!--Attend Buttons-->
+
+
+
+
+
+
+
+
+
+    <!--Bunk Buttons-->
+
+
+
+
+
+</LinearLayout>
